@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import BigInfo from './BigInfo.js';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BigInfo title="Medina Lake water level: " dataSource="https://waterservices.usgs.gov/nwis/dv/?format=json&sites=08179500&siteStatus=all"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
