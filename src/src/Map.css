@@ -1,0 +1,15 @@
+.map-row {
+    background-color: white;
+    padding: 10px;
+    margin: 0px 10px 10px 10px;
+    border-radius: 20px;
+    text-align: center;
+    height: 100%;
+}
+
+.map-container {
+    width: 100%;
+    height: 100%;
+    background-color: green;
+
+}

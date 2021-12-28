@@ -1,17 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
-import BigInfo from './BigInfo.js';
-import reportWebVitals from './reportWebVitals';
+import Header from './Header.js';
+import Map from './Map.js';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BigInfo title="Medina Lake water level: " dataSource="https://waterservices.usgs.gov/nwis/dv/?format=json&sites=08179500&siteStatus=all"/>
+    <div className='main-container container h-100 d-flex flex-column justify-content-evenly'>
+      <div className='row'>
+        <Header />
+      </div>
+      <div className='row flex-grow-1'>
+        <Map/>
+      </div>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
