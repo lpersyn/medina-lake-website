@@ -25,12 +25,12 @@ class MapInfo extends React.Component {
     render() {
         return (
             <div className='map-info'>
-                <table class="table">
+                <table className="table">
                     <thead>
                         <tr>
                         <th scope="col">Site #</th>
                         <th scope="col">Location</th>
-                        <th scope="col">Data</th>
+                        <th scope="col">Current Data</th>
                         <th scope="col">Status</th>
                         </tr>
                     </thead>

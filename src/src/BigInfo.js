@@ -1,6 +1,9 @@
 import React from 'react';
 import "./BigInfo.css";
 
+/* <BigInfo title="Medina Lake water level: " dataSource="https://waterservices.usgs.gov/nwis/dv/?format=json&sites=08179500&siteStatus=all"/> */
+
+
 class BigInfo extends React.Component {
     constructor(props) {
         super(props);
