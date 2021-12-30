@@ -83,7 +83,7 @@ class HeaderInfo extends React.Component {
                 <div className='col justify-content-center'>
                     {this.props.title}
                 </div>
-                <div class="w-100 d-none d-md-block"></div>
+                <div className="w-100 d-none d-md-block"></div>
                 <div className='col justify-content-center'>
                     {this.props.data}
                 </div>
